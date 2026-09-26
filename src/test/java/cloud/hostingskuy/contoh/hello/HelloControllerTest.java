@@ -8,6 +8,6 @@ class HelloControllerTest {
 
     @Test
     void menyapa() {
-        assertThat(new HelloController().hello()).containsEntry("pesan", "halo dari contoh-dev");
+        assertThat(new HelloController().hello()).containsEntry("pesan", "halo dari Jenkins");
     }
 }
